@@ -1,6 +1,6 @@
 # My Personal Library of Ethereum Smart Contracts
 
-A personal library of contracts for experimentation with formal specification. Not to be relied on for anything at all.
+A personal library of contracts for experimentation with formal specification. Not to be relied on for anything at all, not even to be interesting.
 
 Library includes:
 - [ERC20](erc20/) token contract
