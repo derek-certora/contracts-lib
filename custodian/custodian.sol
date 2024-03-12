@@ -6,7 +6,7 @@
 
 pragma solidity ^0.8.13;
 
-import {IERC20} from "../erc20/IERC20.sol" ;
+import {IERC20} from "./IERC20.sol" ;
 
 /// @title Toy custodian contract
 contract Custodian {
@@ -44,4 +44,8 @@ contract Custodian {
         custody[msg.sender] = 0;
     }
 
+    // look at the balance of the token contract 
+    function custodyFor(address a) public view returns (uint256) {
+        return custody[a];
+    }
 }
