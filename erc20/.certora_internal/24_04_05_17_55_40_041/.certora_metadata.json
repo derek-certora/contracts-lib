@@ -1,0 +1,21 @@
+{
+    "CLI_version": "7.0.7",
+    "branch": "main",
+    "conf": {
+        "files": [
+            "ERC20.sol"
+        ],
+        "process": "emv",
+        "rule_sanity": "basic",
+        "verify": "ERC20:spec/ERC20.spec"
+    },
+    "cwd_relative": "erc20",
+    "dirty": true,
+    "origin": "git@github.com:derek-certora/contracts-lib.git",
+    "raw_args": [
+        "/opt/homebrew/bin/certoraRun",
+        "ERC20.conf"
+    ],
+    "revision": "53585663b6f366a597dc1ebfb5cddc5d4585246b",
+    "timestamp": "1712332540.983927"
+}

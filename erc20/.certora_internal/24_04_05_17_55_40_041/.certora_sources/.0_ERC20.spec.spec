@@ -1,0 +1,3 @@
+rule EmptyRule() {
+    assert (true);
+}
